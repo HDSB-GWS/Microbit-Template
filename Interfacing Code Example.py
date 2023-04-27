@@ -19,10 +19,10 @@
 # 
 #-----------------------------------------------------------------------------
 # 
-from Microbit import *
+from MicrobitSerial import *
 
 
-mb = Microbit()
+mb = MicrobitSerial()
 
 while mb.isReady():
     
